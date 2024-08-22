@@ -1,0 +1,28 @@
+.h-wrapper {
+    color: white;
+}
+
+.h-container {
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary) /* Learn more about this */
+}
+
+.h-menu {
+    gap: 2rem
+}
+
+.h-menu:hover {
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+}
